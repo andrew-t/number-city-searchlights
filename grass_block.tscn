@@ -1,0 +1,43 @@
+[gd_scene load_steps=10 format=3 uid="uid://ddnobqkx1yp3"]
+
+[ext_resource type="Texture2D" uid="uid://baqlpuyu2166d" path="res://grass-1000-mm-architextures.jpg" id="1_st6eb"]
+[ext_resource type="Texture2D" uid="uid://dldir667v5wy2" path="res://cropped stripes.jpg" id="2_vti8b"]
+[ext_resource type="Texture2D" uid="uid://c6q7jw5r404el" path="res://vecteezy_black-and-yellow-hazard-stripes-background-industrial_6541497-1.jpg" id="3_b5q82"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rvxok"]
+albedo_texture = ExtResource("1_st6eb")
+
+[sub_resource type="QuadMesh" id="QuadMesh_8m57s"]
+material = SubResource("StandardMaterial3D_rvxok")
+size = Vector2(3.9, 3.9)
+orientation = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h3wee"]
+albedo_texture = ExtResource("2_vti8b")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cfq13"]
+albedo_texture = ExtResource("3_b5q82")
+
+[sub_resource type="QuadMesh" id="QuadMesh_auaf3"]
+material = SubResource("StandardMaterial3D_cfq13")
+size = Vector2(4, 0.1)
+orientation = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y1vqs"]
+albedo_texture = ExtResource("2_vti8b")
+
+[node name="GrassBlock" type="Node3D"]
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55, 0, 2.55)
+mesh = SubResource("QuadMesh_8m57s")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 0, 0.55)
+material_override = SubResource("StandardMaterial3D_h3wee")
+mesh = SubResource("QuadMesh_auaf3")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.55, 0, 2.5)
+material_override = SubResource("StandardMaterial3D_y1vqs")
+mesh = SubResource("QuadMesh_auaf3")

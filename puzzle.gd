@@ -27,6 +27,7 @@ func update():
 	print("p = ", p)
 	camera.position = Vector3(n as float, camera_look_height, p as float)
 	light.position = Vector3(n as float, camera_y, p as float)
+	# $Floor.position = Vector3(n as float, 0.0, p as float)
 	print("light = ", light_yaw * 180 / PI, "°, ", light_pitch * 180 / PI, "°")
 	print("camera = ", camera_yaw * 180 / PI, "°, ", camera_pitch * 180 / PI, "°")
 	camera.rotation = Vector3(camera_pitch, camera_yaw, 0.0)
