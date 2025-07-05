@@ -45,7 +45,7 @@ var _tape_material: Material
 var grass_model: Resource
 
 func _ready():
-	grass_model = preload("res://grass_block.tscn")
+	grass_model = preload("res://floor/grass_block.tscn")
 	rebuild()
 
 func rebuild():

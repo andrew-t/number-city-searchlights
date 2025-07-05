@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lbh1tn6qqk0a"
-path.s3tc="res://.godot/imported/card.jpg-e11d0fa55c35290ae213cb55b385b7a7.s3tc.ctex"
+uid="uid://c6q7jw5r404el"
+path.s3tc="res://.godot/imported/vecteezy_black-and-yellow-hazard-stripes-background-industrial_6541497-1.jpg-69751712348075855eaf6d68ac29075a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://card.jpg"
-dest_files=["res://.godot/imported/card.jpg-e11d0fa55c35290ae213cb55b385b7a7.s3tc.ctex"]
+source_file="res://img/vecteezy_black-and-yellow-hazard-stripes-background-industrial_6541497-1.jpg"
+dest_files=["res://.godot/imported/vecteezy_black-and-yellow-hazard-stripes-background-industrial_6541497-1.jpg-69751712348075855eaf6d68ac29075a.s3tc.ctex"]
 
 [params]
 

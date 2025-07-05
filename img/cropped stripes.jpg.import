@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dldir667v5wy2"
-path.s3tc="res://.godot/imported/cropped stripes.jpg-e7e9811d310877e4d1042d1fae6c8c49.s3tc.ctex"
+path.s3tc="res://.godot/imported/cropped stripes.jpg-a0a9e5afd08fb06943e298b4d37938ba.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://cropped stripes.jpg"
-dest_files=["res://.godot/imported/cropped stripes.jpg-e7e9811d310877e4d1042d1fae6c8c49.s3tc.ctex"]
+source_file="res://img/cropped stripes.jpg"
+dest_files=["res://.godot/imported/cropped stripes.jpg-a0a9e5afd08fb06943e298b4d37938ba.s3tc.ctex"]
 
 [params]
 

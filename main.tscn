@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://c26vpjgy4ebse"]
 
-[ext_resource type="Script" uid="uid://dyvf4j426osib" path="res://floor.gd" id="1_colnd"]
-[ext_resource type="Script" uid="uid://dm8y4igqu5g1x" path="res://buildings.gd" id="1_n8oua"]
-[ext_resource type="Script" uid="uid://bfutrhm54q8e7" path="res://darkroom_light.gd" id="3_i8rop"]
-[ext_resource type="Texture2D" uid="uid://lbh1tn6qqk0a" path="res://card.jpg" id="3_pj567"]
-[ext_resource type="Script" uid="uid://jjmyvwu7hndr" path="res://puzzle.gd" id="3_xir7r"]
+[ext_resource type="Script" uid="uid://dyvf4j426osib" path="res://floor/floor.gd" id="1_colnd"]
+[ext_resource type="Script" uid="uid://dm8y4igqu5g1x" path="res://scripts/buildings.gd" id="1_n8oua"]
+[ext_resource type="Script" uid="uid://bfutrhm54q8e7" path="res://scripts/darkroom_light.gd" id="3_i8rop"]
+[ext_resource type="Texture2D" uid="uid://lbh1tn6qqk0a" path="res://img/card.jpg" id="3_pj567"]
+[ext_resource type="Script" uid="uid://jjmyvwu7hndr" path="res://scripts/puzzle.gd" id="3_xir7r"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6a2w0"]
 disable_ambient_light = true

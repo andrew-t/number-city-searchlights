@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baqlpuyu2166d"
-path.s3tc="res://.godot/imported/grass-1000-mm-architextures.jpg-f794d2a36dbc4a5a26c49ef340e6095a.s3tc.ctex"
+uid="uid://lbh1tn6qqk0a"
+path.s3tc="res://.godot/imported/card.jpg-f8c23a9d67fc22054f5f9303870f5cb2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://grass-1000-mm-architextures.jpg"
-dest_files=["res://.godot/imported/grass-1000-mm-architextures.jpg-f794d2a36dbc4a5a26c49ef340e6095a.s3tc.ctex"]
+source_file="res://img/card.jpg"
+dest_files=["res://.godot/imported/card.jpg-f8c23a9d67fc22054f5f9303870f5cb2.s3tc.ctex"]
 
 [params]
 
