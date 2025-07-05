@@ -1,8 +1,8 @@
 [gd_scene load_steps=10 format=3 uid="uid://ddnobqkx1yp3"]
 
-[ext_resource type="Texture2D" uid="uid://baqlpuyu2166d" path="res://img/grass-1000-mm-architextures.jpg" id="1_0r7o2"]
+[ext_resource type="Texture2D" uid="uid://baqlpuyu2166d" path="res://img/grass.jpg" id="1_0r7o2"]
 [ext_resource type="Texture2D" uid="uid://dldir667v5wy2" path="res://img/cropped stripes.jpg" id="2_mm7n4"]
-[ext_resource type="Texture2D" uid="uid://c6q7jw5r404el" path="res://img/vecteezy_black-and-yellow-hazard-stripes-background-industrial_6541497-1.jpg" id="3_cprww"]
+[ext_resource type="Texture2D" uid="uid://c6q7jw5r404el" path="res://img/stripes.jpg" id="3_cprww"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rvxok"]
 albedo_texture = ExtResource("1_0r7o2")
